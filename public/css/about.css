@@ -1,0 +1,79 @@
+/*about me */
+#aboutMeSection {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#aboutMeText h2 {
+  font-size: 1.8rem;
+  color: #0073e6;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#aboutMeText p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/*Education */
+.education-section {
+  padding: 10px;
+}
+
+.education-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.education-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.education-item h4 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.education-item .study-period {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.education-item .study-description {
+  margin-top: 5px;
+  line-height: 1.4;
+}
+
+/*skills */
+#skills {
+  padding: 10px;
+}
+
+#skills h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.skill-item {
+  margin-bottom: 15px;
+}
+
+.skill-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.skill-item p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
