@@ -20,6 +20,10 @@ header {
   width: 845px;
 }
 
+footer {
+  text-align: center;
+}
+
 /*nav */
 #nav-meny {
   background-color: #0073e6;
