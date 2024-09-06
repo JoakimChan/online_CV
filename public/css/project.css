@@ -29,6 +29,11 @@
   color: #666;
 }
 
+.project-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;
