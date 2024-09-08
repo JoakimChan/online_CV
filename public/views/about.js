@@ -1,6 +1,6 @@
 export default () => /*html*/`
-<div id="aboutMeSection">
-  <section id="aboutMeText">
+<section id="aboutMeText">
+  <div id="aboutMeSection">
     <h2>About Me</h2>
     <p>
       My name is Joakim, and welcome to my online CV. This project showcases my fundamental web development skills, including
@@ -11,8 +11,8 @@ export default () => /*html*/`
       Currently, I reside in Stockholm, where I am pursuing studies in the Software Tester program at KYH Vocational University.
       I expect to complete my program by the end of May 2025.
     </p>
-  </section>
-</div>
+  </div>
+</section>
 
 <section id="skills">
   <h2>My Skills</h2>
@@ -49,6 +49,4 @@ export default () => /*html*/`
     </div>
   </div>
 </section>
-
-
 `;
