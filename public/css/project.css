@@ -1,6 +1,7 @@
 /* Project Section Styling */
 #projects-section {
   padding: 20px;
+  text-align: center;
 }
 
 .projects-container {
@@ -32,12 +33,6 @@
 .project-box:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
-
-.project-box a:hover h3,
-.project-box a:hover p {
-  text-decoration: underline;
-  /* Understryk texten vid hover */
 }
 
 .tags {

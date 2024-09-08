@@ -1,8 +1,7 @@
 export default () => /*html*/`
-<h1>Education</h1>
-<div id="myEducations">
   <section class="education-section">
-
+  <h2>Education</h2>
+<div id="myEducations">
     <div class="education-item">
       <h3 class="school-name">KYH Yrkeshögskola</h3>
       <h4 class="degree-title">Software Testing</h4>
@@ -38,6 +37,7 @@ export default () => /*html*/`
         During my high school period, I learned basic programming in Java and the fundamentals of code structure.
       </p>
     </div>
+    </div>
   </section>
-</div>
+
 `

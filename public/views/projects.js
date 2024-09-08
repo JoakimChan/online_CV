@@ -1,6 +1,6 @@
 export default () => /*html*/`
-  <h1>Projects</h1>
   <section id="projects-section">
+    <h2>Projects</h2>
     <div class="projects-container">
 
       <a href="https://github.com/JoakimChan/Questionnaire" target="_blank">
