@@ -15,7 +15,7 @@ export default () => /*html*/`
 </section>
 
 <section id="skills">
-  <h2>My Skills</h2>
+  <h2>Skills</h2>
 
   <div class="skill-container">
     <div class="skill-item">

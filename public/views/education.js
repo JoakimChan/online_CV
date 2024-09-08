@@ -7,7 +7,7 @@ export default () => /*html*/`
       <h4 class="degree-title">Software Testing</h4>
       <p class="study-period">AUG 2023 - PRESENT</p>
       <p class="study-description">
-        I have recently started the vocational university program for software testing, where I am studying teamwork and industry knowledge. Additionally, I have polished my foundational skills in JavaScript, HTML, and CSS.
+        Have recently started the vocational university program for software testing, where I am studying teamwork and industry knowledge. Additionally, I have polished my foundational skills in JavaScript, HTML, and CSS.
       </p>
     </div>
 
@@ -16,7 +16,7 @@ export default () => /*html*/`
       <h4 class="degree-title">Computer Technology: Software and Mobile Platform</h4>
       <p class="study-period">AUG 2017 - PRESENT</p>
       <p class="study-description">
-        I graduated in the summer of 2022 from Jönköping University in the program Computer Technology: Software and Mobile Platform, though I have a few unfinished courses.
+        Graduated in the summer of 2022 from Jönköping University in the program Computer Technology: Software and Mobile Platform, though I have a few unfinished courses.
       </p>
     </div>
 
@@ -25,7 +25,7 @@ export default () => /*html*/`
       <h4 class="degree-title">COBOL Programmer</h4>
       <p class="study-period">AUG 2014 - JUN 2015</p>
       <p class="study-description">
-        I graduated from Jensen Yrkeshögskola in the COBOL Programmer program, where I learned to program in the COBOL language.
+        Graduated from Jensen Yrkeshögskola in the COBOL Programmer program, where I learned to program in the COBOL language.
       </p>
     </div>
 
