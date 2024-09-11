@@ -6,7 +6,8 @@ export default () => /*html*/`
       <a href="https://github.com/JoakimChan/Questionnaire" target="_blank">
         <div class="project-box">
           <h3>Questionnaire</h3>
-          <p>My first school project</p>
+          <p>This project is a console-based personality quiz that matches users with an animal based on their answers to a series of questions.<br>
+          The results are stored in a JSON file and can be reviewed later.</p>
             <div class="tags">
               <span class="tag">Javascript</span>
              </div>
@@ -16,7 +17,8 @@ export default () => /*html*/`
       <a href="https://github.com/JoakimChan/MusicianAndBand" target="_blank">
         <div class="project-box">
             <h3>MusicianAndBand</h3>
-            <p>...</p>
+            <p>This project is a simple Node.js application that manages musicians and bands.
+            It includes functionality to handle musician and band data using JavaScript classes and JSON files.</p>
             <div class="tags">
               <span class="tag">Javascript</span>
             </div>
@@ -26,7 +28,8 @@ export default () => /*html*/`
       <a href="https://github.com/JoakimChan/BrokerSite" target="_blank">
         <div class="project-box">
           <h3>BrokerSite</h3>
-          <p>...</p>
+          <p>The project enables users to explore available properties and view detailed information for each listing,
+          streamlining the connection between brokers and potential buyers.</p>
           <div class="tags">
             <span class="tag">Web Development</span>
             <span class="tag">Jason server</span>
@@ -37,22 +40,13 @@ export default () => /*html*/`
       <a href="https://github.com/JoakimChan/Databaser_Evenemanghantering" target="_blank">
         <div class="project-box">
           <h3>Evenemanghantering</h3>
-          <p>...</p>
+          <p>This project involves managing events, venues, and guests as part of a school assignment.<br>
+          The primary objective is to establish a MongoDB database, generate mock data, and utilize Postman to dispatch APIs.</p>
           <div class="tags">
             <span class="tag">Javascript</span>
             <span class="tag">Database Management</span>
             <span class="tag">Postman</span>
           </div>
-        </div>
-      </a>
-
-      <a href="https://github.com/JoakimChan/TicTakToe" target="_blank">
-        <div class="project-box">
-            <h3>TicTakToe</h3>
-            <p>...</p>
-            <div class="tags">
-              <span class="tag">Java</span>
-            </div>
         </div>
       </a>
 

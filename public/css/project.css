@@ -28,6 +28,7 @@
 .project-box p {
   margin-bottom: 15px;
   color: #666;
+  text-align: left;
 }
 
 .project-box:hover {
