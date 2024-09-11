@@ -3,45 +3,24 @@ import education from "./views/education.js";
 import projects from "./views/projects.js";
 
 const routes = {
-  "/": { title: "About", render: about },
-  "/education": { title: "Education", render: education },
-  "/projects": { title: "Projects", render: projects }
+  "#/": { title: "About", render: about },
+  "#/education": { title: "Education", render: education },
+  "#/projects": { title: "Projects", render: projects }
 };
 
 function router() {
-  let view = routes[location.pathname];
-
-  if (view) {
-    document.title = view.title;
-    app.innerHTML = view.render();
-  } else {
-    history.replaceState("", "", "/");
-    router();
-  }
-};
+  let view = routes[location.hash] || routes["#/"];
+  document.title = view.title;
+  app.innerHTML = view.render();
+}
 
 window.addEventListener("click", e => {
   if (e.target.matches("[data-link]")) {
     e.preventDefault();
-    history.pushState("", "", e.target.href);
-    router();
+    const href = e.target.getAttribute('href');
+    location.hash = href;
   }
 });
 
-window.router = router;
-
-window.addEventListener("popstate", router);
+window.addEventListener("hashchange", router);
 window.addEventListener("DOMContentLoaded", router);
-
-document.addEventListener("DOMContentLoaded", function () {
-  var navLinks = document.querySelectorAll(".nav-link");
-
-  navLinks.forEach(function (link) {
-    link.addEventListener("click", function (event) {
-      navLinks.forEach(function (link) {
-        link.classList.remove("active");
-      });
-      this.classList.add("active");
-    });
-  });
-});
