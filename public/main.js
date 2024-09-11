@@ -3,7 +3,7 @@ import education from "./views/education.js";
 import projects from "./views/projects.js";
 
 const routes = {
-  "#/": { title: "About", render: about },
+  "#/": { title: "Joakim Chan Online CV", render: about },
   "#/education": { title: "Education", render: education },
   "#/projects": { title: "Projects", render: projects }
 };
