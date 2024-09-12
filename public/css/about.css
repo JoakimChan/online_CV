@@ -50,11 +50,3 @@
   line-height: 1.5;
   font-family: 'Open Sans', Arial, sans-serif;
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .skill-item {
-    flex: 1 1 80%;
-    max-width: 80%;
-  }
-}
