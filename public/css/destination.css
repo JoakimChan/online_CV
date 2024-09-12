@@ -1,0 +1,75 @@
+/* Sektion som innehåller all väderinformation */
+.ajax-section {
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+}
+
+/* Box för "current destination", anpassad för en enda stor box */
+.single-box {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.single-box .city {
+  flex: 0 1 400px;
+  /* En fast bredd för en stor box */
+}
+
+/* Container för flera boxar ("dream destination") */
+.multi-box {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: flex-start;
+  /* Se till att boxarna är vänsterjusterade */
+  overflow-x: auto;
+  /* Horisontell rullning om boxarna inte får plats */
+  width: 100%;
+  padding: 20px;
+}
+
+.multi-box {
+  border: 2px solid red;
+  overflow-x: scroll;
+  /* Testa med scroll istället för auto */
+}
+
+/* Allmänna stilar för stadens väderboxar */
+.city {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 220px;
+  flex-shrink: 0;
+  /* Förhindrar att boxarna krymper om det inte finns tillräckligt med utrymme */
+}
+
+.city h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.city-temp {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.city-icon {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.city figcaption {
+  margin-top: 8px;
+  font-size: 1rem;
+  text-transform: capitalize;
+}

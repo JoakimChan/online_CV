@@ -1,6 +1,6 @@
 export default () => /*html*/`
-<section id="aboutMeText">
-  <div id="aboutMeSection">
+<section id="introText">
+  <div id="introSection">
     <h2>About Me</h2>
     <p>
       My name is Joakim, and welcome to my online CV. This project showcases my fundamental web development skills, including

@@ -1,17 +1,19 @@
 import about from "./views/about.js";
-import education from "./views/education.js";
+import educations from "./views/educations.js";
 import projects from "./views/projects.js";
+import destinations from "./views/destinations.js";
 
 const routes = {
   "#/": { title: "Joakim Chan Online CV", render: about },
-  "#/education": { title: "Education", render: education },
-  "#/projects": { title: "Projects", render: projects }
+  "#/educations": { title: "Educations", render: educations },
+  "#/projects": { title: "Projects", render: projects },
+  "#/destinations": { title: "Destinations", render: destinations }
 };
 
-function router() {
+async function router() {
   let view = routes[location.hash] || routes["#/"];
   document.title = view.title;
-  app.innerHTML = view.render();
+  app.innerHTML = await view.render();
 }
 
 window.addEventListener("click", e => {

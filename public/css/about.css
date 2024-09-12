@@ -1,79 +1,60 @@
- /* about me */
- #aboutMeSection {
-   max-width: 900px;
-   margin: 40px auto;
-   padding: 30px;
-   background-color: #ffffff;
-   border-radius: 10px;
-   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
- }
+/* skills section */
+#skills {
+  padding: 50px 0;
+  background-color: #f9f9fc;
+  text-align: center;
+}
 
- #aboutMeText p {
-   font-size: 1.1rem;
-   color: #444;
-   margin-bottom: 25px;
-   line-height: 1.6;
-   text-align: justify;
-   font-family: 'Open Sans', Arial, sans-serif;
- }
+#skills h2 {
+  font-size: 1.8rem;
+  color: #0056b3;
+  margin-bottom: 30px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
 
- /* skills section */
- #skills {
-   padding: 50px 0;
-   background-color: #f9f9fc;
-   text-align: center;
- }
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
- #skills h2 {
-   font-size: 1.8rem;
-   color: #0056b3;
-   margin-bottom: 30px;
-   font-family: 'Helvetica Neue', Arial, sans-serif;
- }
+.skill-item {
+  flex: 1 1 40%;
+  max-width: 40%;
+  padding: 20px;
+  margin: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
- .skill-container {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
- }
+.skill-item img {
+  display: block;
+  max-width: 80px;
+  margin: 0 auto 15px auto;
+  /* Centers the image horizontally */
+}
 
- .skill-item {
-   flex: 1 1 40%;
-   max-width: 40%;
-   padding: 20px;
-   margin: 15px;
-   background-color: #fff;
-   border-radius: 10px;
-   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-   text-align: center;
-   transition: transform 0.3s ease, box-shadow 0.3s ease;
- }
+.skill-item h3 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: 'Roboto', Arial, sans-serif;
+}
 
- .skill-item img {
-   display: block;
-   max-width: 80px;
-   margin: 0 auto 15px auto;
-   /* Centers the image horizontally */
- }
+.skill-item p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
 
- .skill-item h3 {
-   font-size: 1.4rem;
-   color: #333;
-   margin-bottom: 10px;
-   font-family: 'Roboto', Arial, sans-serif;
- }
-
- .skill-item p {
-   font-size: 1rem;
-   color: #666;
-   line-height: 1.5;
-   font-family: 'Open Sans', Arial, sans-serif;
- }
-
- /* Responsive Design */
- @media (max-width: 768px) {
-   .skill-item {
-     flex: 1 1 80%;
-     max-width: 80%;
-   }
- }
+/* Responsive Design */
+@media (max-width: 768px) {
+  .skill-item {
+    flex: 1 1 80%;
+    max-width: 80%;
+  }
+}

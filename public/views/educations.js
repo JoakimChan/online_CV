@@ -1,6 +1,6 @@
 export default () => /*html*/`
   <section class="education-section">
-  <h2>Education</h2>
+  <h2>Educations</h2>
 <div id="myEducations">
     <div class="education-item">
       <h3 class="school-name">KYH Yrkeshögskola</h3>
