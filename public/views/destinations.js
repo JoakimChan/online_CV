@@ -52,10 +52,10 @@ export default () => /*html*/ `
     </div>
   </section>
 
-<section class="ajax-section">
-  <h3>Current Destination: </h3>
-  <div id="current-destination" class="container single-box"></div>
-  <h3>Dream Destinations: </h3>
-  <div id="dream-destination" class="container multi-box"></div>
-</section>
+  <section class="ajax-section">
+    <h3>Current Destination: </h3>
+    <div id="current-destination" class="container single-box"></div>
+    <h3>Dream Destinations: </h3>
+    <div id="dream-destination" class="container multi-box"></div>
+  </section>
 `;
