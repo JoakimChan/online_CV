@@ -52,11 +52,12 @@ export default () => /*html*/ `
       This project demonstrates how to use an API to handle live data and present it clearly on a webpage. </p>
     </div>
   </section>
-
-  <section class="ajax-section">
-    <h3>Current Location: </h3>
-    <div id="current-destination" class="container single-box"></div>
-    <h3>Dream Destinations: </h3>
-    <div id="dream-destination" class="container multi-box"></div>
+  <section id="skills">
+    <section class="ajax-section">
+      <h2>Current Location: </h2>
+      <div id="current-destination" class="container single-box"></div>
+      <h3>Dream Destinations: </h3>
+      <div id="dream-destination" class="container multi-box"></div>
+    </section>
   </section>
 `;
