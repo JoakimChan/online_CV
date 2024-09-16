@@ -47,6 +47,12 @@ export default () => /*html*/`
       <h3>Vitest</h3>
       <p>Proficient in Vitest for fast and reliable unit testing in JavaScript/TypeScript environments, ensuring high-quality code.</p>
     </div>
+
+        <div class="skill-item">
+      <img src="./public/image/pngegg.png" alt="Jest Icon" class="avatar">
+      <h3>Jest</h3>
+      <p>Jest is a JavaScript testing framework designed for fast, easy testing of both synchronous and asynchronous code.</p>
+    </div>
   </div>
 </section>
 `;
