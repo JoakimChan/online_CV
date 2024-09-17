@@ -14,6 +14,11 @@ async function router() {
   let view = routes[location.hash] || routes["#/"];
   document.title = view.title;
   app.innerHTML = await view.render();
+
+  // Call weather fetch function only after DOM is fully updated and when on destinations page
+  if (location.hash === "#/destinations") {
+    fetchWeatherData();  // Ensure this function is globally available or move the logic here
+  }
 }
 
 window.addEventListener("click", e => {
