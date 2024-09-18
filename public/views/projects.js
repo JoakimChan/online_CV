@@ -50,6 +50,16 @@ export default () => /*html*/`
         </div>
       </a>
 
+      <a href="https://github.com/xfekke/Filmvisarna" target="_blank">
+        <div class="project-box">
+          <h3>Filmvisarna</h3>
+          <p>This is a group project</p>
+          <div class="tags">
+            <span class="tag">Cypress</span>
+          </div>
+        </div>
+      </a>
+    
     </div>
   </section>
 `;

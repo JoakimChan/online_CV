@@ -49,8 +49,10 @@ export default () => {
       <div id="introSection">
         <h2>Destinations</h2>
         <p>This page shows where I use the OpenWeatherMap API to get real-time weather data for different cities.</p>
-        <p>It displays the current temperature and weather for two locations: my current destination and "dream destinations" — places I plan to visit in the future.</p>
-        <p>This lets users see the current weather and get a sense of what the weather might be like in potential travel spots. The data updates each time the page is visited, showing the latest weather information. This project demonstrates how to use an API to handle live data and present it clearly on a webpage.</p>
+        <p>It displays the current temperature and weather for two locations: my current location and "dream destinations" — places I plan to visit in the future.</p>
+        <p>This lets users see the current weather and get a sense of what the weather might be like in potential travel spots.
+        The data updates each time the page is visited, showing the latest weather information.
+        This simple project demonstrates how to use an API to handle live data and present it clearly on a webpage.</p>
       </div>
     </section>
     <section id="skills">
