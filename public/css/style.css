@@ -14,7 +14,26 @@ body {
 header {
   display: flex;
   align-items: center;
-  width: 845px;
+  width: 100%;
+  max-width: 845px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Styles for tablets and smaller devices */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+/* Styles for mobile phones */
+@media (max-width: 480px) {
+  header {
+    padding: 5px;
+    justify-content: center;
+  }
 }
 
 footer {

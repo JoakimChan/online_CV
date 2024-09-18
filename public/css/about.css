@@ -24,11 +24,18 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* For mobile phones */
+@media (max-width: 480px) {
+  .skill-item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
 .skill-item img {
   display: block;
   max-width: 80px;
   margin: 0 auto 15px auto;
-  /* Centers the image horizontally */
 }
 
 .skill-item h3 {
