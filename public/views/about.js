@@ -33,13 +33,13 @@ export default () => /*html*/`
     <div class="skill-item">
       <img src="./public/image/Cypress-Icon.png" alt="Cypress Icon" class="avatar">
       <h3>Cypress</h3>
-      <p>Expert in using Cypress for robust front-end automation, enabling efficient end-to-end testing of web applications.</p>
+      <p>Cypress for robust front-end automation, enabling efficient end-to-end testing of web applications.</p>
     </div>
 
     <div class="skill-item">
       <img src="./public/image/pngwing.com.png" alt="Postman Icon" class="avatar">
       <h3>Postman</h3>
-      <p>Experienced in API testing with Postman, using its request-building, response-verification, and test automation features to ensure API reliability and functionality.</p>
+      <p>API testing with Postman, using its request-building, response-verification, and test automation features to ensure API reliability and functionality.</p>
     </div>
 
     <div class="skill-item">

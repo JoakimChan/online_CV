@@ -53,7 +53,8 @@ export default () => /*html*/`
       <a href="https://github.com/xfekke/Filmvisarna" target="_blank">
         <div class="project-box">
           <h3>Filmvisarna</h3>
-          <p>This is a group project</p>
+          <p>Filmvisarna is a group project focused on testing a cinema booking website using the Cypress.io framework.
+          This project incorporates behavior-driven development (BDD) with Cucumber, offering an intuitive and flexible testing environment.</p>
           <div class="tags">
             <span class="tag">Cypress</span>
           </div>
