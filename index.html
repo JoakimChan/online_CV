@@ -5,60 +5,51 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joakim Chan - Portfolio</title>
   <link rel="icon" href="./public/image/favicon.png">
-  <link rel="stylesheet" href="./public/css/style.css">
-  <link rel="stylesheet" href="./public/css/about.css">
-  <link rel="stylesheet" href="./public/css/education.css">
-  <link rel="stylesheet" href="./public/css/project.css">
-  <link rel="stylesheet" href="./public/css/destination.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./public/css/styles.css">
 </head>
 
 <body>
-
   <header>
-    <img src="./public/image/avatar.png" alt="avatar" class="avatar">
-    <div class="text-container">
-      <h1 id="hello">
-        Hello there!
-      </h1>
-      <h2>
-        &nbsp;&nbsp;&nbsp;- I'm Joakim
-        <br>
-        &nbsp;Welcome to my page!
-      </h2>
-    </div>
-  </header>
-
-  <div id="aboutSPA">
-    <nav id="nav-meny">
+    <nav id="nav-menu">
       <a href="#/" data-link class="nav-link">About Me</a>
       <a href="#/educations" data-link class="nav-link">My Educations</a>
       <a href="#/projects" data-link class="nav-link">My Projects</a>
       <a href="#/destinations" data-link class="nav-link">My Destinations</a>
     </nav>
-  </div>
+  </header>
 
-  <main id="app"></main>
+  <main>
+    <section id="hero">
+      <img src="./public/image/avatar.png" alt="Joakim Chan" class="avatar">
+      <h1>Hello there!</h1>
+      <h2>I'm Joakim</h2>
+      <p>Welcome to my page!</p>
+    </section>
+
+    <div id="app"></div>
+  </main>
+
+  <footer>
+    <div id="linkLogos">
+      <h3>You can reach me here:</h3>
+      <div class="social-links">
+        <a href="https://github.com/JoakimChan" target="_blank">
+          <img src="./public/image/logos_github.png" alt="Github">
+        </a>
+        <a href="https://www.linkedin.com/in/joakim-chan-995b5823a/" target="_blank">
+          <img src="./public/image/logos_linkedIn.png" alt="LinkedIn">
+        </a>
+        <a href="mailto:joakim.chan@hotmail.com">
+          <img src="./public/image/logos_email.png" alt="Email">
+        </a>
+      </div>
+    </div>
+  </footer>
+
   <script type="module" src="./public/main.js"></script>
-
 </body>
-
-<footer>
-  <div id="linkLogos">
-    <h3>You can reach me here:</h3>
-
-    <a href="https://github.com/JoakimChan" target="_blank">
-      <img src="./public/image/logos_github.png" alt="Github-link">
-    </a>
-
-    <a href="https://www.linkedin.com/in/joakim-chan-995b5823a/" target="_blank">
-      <img src="./public/image/logos_linkedIn.png" alt="linkedIn-link">
-    </a>
-
-    <a href="mailto:joakim.chan@hotmail.com">
-      <img src="./public/image/logos_email.png" alt="Email-link">
-    </a>
-  </div>
-</footer>
 
 </html>

@@ -32,7 +32,7 @@ export default () => /*html*/`
           streamlining the connection between brokers and potential buyers.</p>
           <div class="tags">
             <span class="tag">Web Development</span>
-            <span class="tag">Jason server</span>
+            <span class="tag">Json server</span>
           </div>
         </div>
       </a>
