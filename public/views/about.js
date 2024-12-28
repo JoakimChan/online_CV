@@ -8,7 +8,8 @@ export default () => /*html*/`
       interested in learning more.
     </p>
     <p>
-    The purpose of this project is to highlight my skills, programming languages, and testing tools, along with a glimpse of my academic background.
+   The purpose of this project is to showcase my skills, proficiency in programming languages, and expertise in testing tools,
+   as well as to provide an overview of my academic background and the projects I have completed during my education.
     </p>
     <p>
       Currently, I reside in Stockholm, where I am pursuing studies in the Software Tester program at KYH Vocational University.
@@ -71,7 +72,8 @@ export default () => /*html*/`
     <div class="skill-item">
       <img src="./public/image/Cypress-Icon.png" alt="Cypress Icon" class="avatar">
       <h3>Cypress</h3>
-      <p>Cypress for robust front-end automation, enabling efficient end-to-end testing of web applications.</p>
+      <p>Cypress is a modern, end-to-end testing framework designed for web applications.
+      It runs directly in the browser, allowing for real-time interaction and debugging of tests with a simple and intuitive syntax.</p>
     </div>
 
     <div class="skill-item">
@@ -91,19 +93,15 @@ export default () => /*html*/`
         <div class="skill-item">
       <img src="./public/image/pngwing.com.png" alt="Postman Icon" class="avatar">
       <h3>Postman</h3>
-      <p>API testing with Postman, using its request-building, response-verification, and test automation features to ensure API reliability and functionality.</p>
+      <p>Postman is a versatile API testing tool that simplifies designing, testing, and documenting APIs.
+      It provides an intuitive interface for sending requests, validating responses, and automating workflows to streamline API development.</p>
     </div>
 
     <div class="skill-item">
       <img src="./public/image/vitest-logo.png" alt="Vitest Icon" class="avatar">
       <h3>Vitest</h3>
-      <p>Proficient in Vitest for fast and reliable unit testing in JavaScript/TypeScript environments, ensuring high-quality code.</p>
-    </div>
-
-    <div class="skill-item">
-      <img src="./public/image/pngegg.png" alt="Jest Icon" class="avatar">
-      <h3>Jest</h3>
-      <p>Jest is a JavaScript testing framework designed for fast, easy testing of both synchronous and asynchronous code.</p>
+      <p>Vitest is a fast and lightweight testing framework for JavaScript and TypeScript, built for modern web applications.
+      It integrates seamlessly with Vite, enabling efficient unit testing and a streamlined developer experience.</p>
     </div>
   </div>
 </section>
